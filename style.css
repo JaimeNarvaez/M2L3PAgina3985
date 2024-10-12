@@ -1,0 +1,31 @@
+@keyframes cambiodecolor{
+    0%{
+        color: yellow;
+        font-size: 24px;
+    }
+    50%{
+        color: blue;
+        font-size: 48px;
+    }
+    100%{
+        color: yellow;
+        font-size: 24px;
+    }
+}
+
+
+
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #ffffff; /* El color del fondo de la página web */
+    color: #0048ff; /* El color del texto*/ 
+}
+h1:hover {
+    animation: cambiodecolor 3s infinite;
+}
+h1 {
+    color: #00a800; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
